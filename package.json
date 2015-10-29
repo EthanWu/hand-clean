@@ -1,0 +1,21 @@
+{
+  "name": "hand-clean",
+  "version": "1.0.0",
+  "description": "scaffold of a server",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.3",
+    "morgan": "^1.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "express",
+    "server",
+    "scaffold"
+  ],
+  "author": "Ethan Wu (http://travo.com/)",
+  "license": "ISC"
+}
