@@ -2,12 +2,15 @@ var express = require('express'),
 //system dependency.
 
 //local config file.
-    config = require('./config/env/default');
+    config = require('./config/config');
 
 //middleware
 var app = express();
 
+//Load config file.
 require('./config/log')(app);
+
+//Load router file.
 
 
 app.get('/', function (req, res) {
