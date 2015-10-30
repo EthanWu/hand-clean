@@ -11,6 +11,7 @@
     "express": "^4.13.3",
     "glob": "^5.0.15",
     "lodash": "^3.10.1",
+    "mongoose": "^4.2.3",
     "morgan": "^1.6.1"
   },
   "devDependencies": {},

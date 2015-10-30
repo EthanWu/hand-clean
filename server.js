@@ -1,5 +1,6 @@
 var express = require('express'),
 //system dependency.
+    mongoose = require('mongoose'),
 //local config file.
     config = require('./config/config');
 
@@ -9,6 +10,8 @@ var app = express();
 //Load config file.
 require('./config/log')(app);
 
+//connect to mongodb and load data model.
+require('./models');
 //Load router file.
 require('./router')(app);
 
