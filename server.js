@@ -17,3 +17,4 @@ require('./router')(app);
 
 app.listen(config.port);
 console.log('The server is listening on port ', config.port);
+module.exports = app;
